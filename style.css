@@ -1,0 +1,104 @@
+/*Arquivo estilo.css ---- menu1 centralizado */
+*{ 
+     margin: 0px;    
+     padding: 0px; 
+}
+body{ font-family: Ms Trebuchet; }
+a{ text-decoration: none; color: #000; }
+a:hover{ }
+
+#all{
+            width: 1278px;
+            height: 80px;
+            line-height: 80px; /* centraliza na vertical */
+            background-color: #606060;
+            border: 1px dashed #ccc;
+            margin: 0 auto;
+        }
+ul.menu{
+            text-align: center; /* centraliza na horizontal */
+			outline: 6px solid #000000;
+			border-radius: 12px;
+        }
+		
+ul.menu li{
+			background-color: #606060;
+            display: inline-block; /* centraliza na horizontal */
+            margin: 0 10px; /* quanto maior o px mais distante eles ficam*/
+        }
+		
+ul.menu li a{
+            background-color: #707070;
+            border-radius: 6px; /*bordas arredondadas, quanto maior mais redondo fica*/
+            padding: 20px 40px; /* o primeiro px aumenta a altura e o outro gordura */
+            color: #f9f9f9;
+        }
+		
+ul.menu li a:hover{
+            background-color: #909090;
+        }
+
+.container-bloco {
+  display: flex;
+  align-items: center;      /* Centraliza verticalmente a imagem e o texto entre si */
+  justify-content: center;   /* Centraliza o bloco inteiro na horizontal da tela */
+  gap: 30px;                 /* Espaço horizontal entre a imagem e o texto */
+  margin-bottom: 40px;       /* ISSO CRIA O ESPAÇO ENTRE OS BLOCOS (um abaixo do outro) */
+}
+
+.caixa-imagem {
+  width: 192px;  
+  height: 192px; 
+  overflow: hidden;
+  outline: 6px solid #000000;
+  border-radius: 12px;
+}
+
+.caixa-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.descricao-imagem {
+  background-color: #808080; 
+  color: #ffffff; 
+  border-radius: 12px; 
+  padding: 12px 20px; 
+  font-size: 32px; 
+  font-family: sans-serif;
+  margin: 0; 
+  text-align: center;
+  max-width: 400px;          /* Limita a largura do balão de texto para não esticar muito */
+  outline: 6px solid #000000;
+}
+
+.caixa-imagem-grande {
+  width: 384px;  
+  height: 384px; 
+  overflow: hidden;
+  outline: 6px solid #000000;
+  border-radius: 12px;
+}
+
+.caixa-imagem-grande img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-grande {
+  background-color: #808080; 
+  color: #ffffff; 
+  border-radius: 12px; 
+  padding: 12px 20px; 
+  font-size: 32px; 
+  font-family: sans-serif;
+  margin: 0; 
+  text-align: center;
+  outline: 6px solid #000000;
+}
+
+.rodape {
+	
+}
