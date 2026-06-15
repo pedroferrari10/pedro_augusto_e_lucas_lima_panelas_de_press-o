@@ -98,7 +98,12 @@ ul.menu li a:hover{
   text-align: center;
   outline: 6px solid #000000;
 }
-
+h5{
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
 .rodape {
 	
 }
