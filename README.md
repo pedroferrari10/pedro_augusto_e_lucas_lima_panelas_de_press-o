@@ -1,1 +1,0 @@
-# pedro_augusto_e_lucas_lima_panelas_de_press-o
